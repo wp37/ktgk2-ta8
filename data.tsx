@@ -154,15 +154,19 @@ const unit7Vocab: VocabItem[] = [
   { word: "Single-use", ipa: "/ˌsɪŋɡl ˈjuːs/ (adj)", meaning: "<strong>Sử dụng một lần</strong>. Dùng xong bỏ đi.<br/><em class='text-xs text-gray-500'>Ví dụ: single-use plastic bags.</em>" },
   { word: "Protect", ipa: "/prəˈtekt/ (v)", meaning: "<strong>Bảo vệ</strong>. Giữ gìn, che chở.<br/><em class='text-xs text-gray-500'>Family: protection (n), protective (adj).</em>" },
   { word: "Participate", ipa: "/pɑːˈtɪsɪpeɪt/ (v)", meaning: "<strong>Tham gia</strong>. Góp phần vào hoạt động.<br/><em class='text-xs text-gray-500'>Collocation: participate in activities.</em>" },
-  { word: "Coral", ipa: "/ˈkɒrəl/ (n)", meaning: "<strong>San hô</strong>. Sinh vật biển tạo rạn san hô.<br/><em class='text-xs text-gray-500'>Ví dụ: coral reef.</em>" },
+  { word: "Substance", ipa: "/ˈsʌbstəns/ (n)", meaning: "<strong>Chất</strong>. Loại vật chất cụ thể.<br/><em class='text-xs text-gray-500'>Ví dụ: toxic substances = chất độc hại.</em>" },
+  { word: "Release", ipa: "/rɪˈliːs/ (v)", meaning: "<strong>Thải ra, phóng thích</strong>. Làm thoát ra ngoài.<br/><em class='text-xs text-gray-500'>Ví dụ: release carbon dioxide into the air.</em>" },
+  { word: "Coral", ipa: "/ˈkɒrəl/ (n)", meaning: "<strong>San hô</strong>. Sinh vật biển tạo rạn san hô.<br/><em class='text-xs text-gray-500'>Ví dụ: coral reef = rạn san hô.</em>" },
   { word: "Dugong", ipa: "/ˈduːɡɒŋ/ (n)", meaning: "<strong>Bò biển (cá cúi)</strong>. Động vật biển có vú quý hiếm.<br/><em class='text-xs text-gray-500'>Ví dụ: Côn Đảo dugong conservation.</em>" },
 ];
 
 const unit7Exercises: ExerciseItem[] = [
-  { id: 1, question: "The roads were slippery _______ it rained.<br/>A. when B. until C. as soon as D. while", answer: "<strong>A. when</strong>.<br/>(When + quá khứ đơn: diễn tả thời điểm xảy ra sự việc)." },
-  { id: 2, question: "_______ they arrive, we'll have lunch.", answer: "<strong>As soon as</strong>.<br/>(As soon as = ngay khi. Mệnh đề chính ở tương lai, mệnh đề phụ dùng hiện tại đơn)." },
-  { id: 3, question: "We should stop using single-use products _______ we can protect the environment.", answer: "<strong>so that</strong>.<br/>(So that + mệnh đề chỉ mục đích)." },
-  { id: 4, question: "Phonetics: Choose the word with /bl/ sound:<br/>A. <strong>Cl</strong>ean B. <strong>Bl</strong>ack C. <strong>Cl</strong>ub D. <strong>Cl</strong>ear", answer: "<strong>B. Black</strong>. Các từ còn lại chứa âm /kl/." },
+  { id: 1, question: "The roads were slippery _______ it rained.<br/>A. when B. until C. as soon as D. while", answer: "<strong>A. when</strong>.<br/>💡 <em>when</em> = khi → Đường trơn <strong>khi</strong> trời mưa." },
+  { id: 2, question: "_______ they arrive, we'll have lunch.<br/>A. Until B. While C. As soon as D. Before", answer: "<strong>C. As soon as</strong>.<br/>💡 As soon as = ngay khi → Ngay khi họ tới, chúng ta sẽ ăn trưa.<br/>⚠️ Sau <em>as soon as</em> dùng <strong>hiện tại đơn</strong>, KHÔNG dùng <em>will</em>." },
+  { id: 3, question: "We should stop using single-use products _______ we can protect the environment.<br/>A. so that B. when C. while D. until", answer: "<strong>A. so that</strong>.<br/>💡 so that = để mà → Dừng dùng đồ 1 lần <strong>để mà</strong> bảo vệ môi trường." },
+  { id: 4, question: "I'll wait here _______ you come back.<br/>A. when B. while C. until D. as soon as", answer: "<strong>C. until</strong>.<br/>💡 until = cho đến khi → Tôi sẽ đợi ở đây cho đến khi bạn quay lại." },
+  { id: 5, question: "_______ we finish our dinner, we'll go for a walk.<br/>A. While B. Until C. When D. After", answer: "<strong>D. After</strong>.<br/>💡 after = sau khi → Sau khi ăn xong, chúng ta sẽ đi dạo." },
+  { id: 6, question: "Phonetics: Choose the word with /bl/ sound:<br/>A. <strong>Cl</strong>ean B. <strong>Bl</strong>ack C. <strong>Cl</strong>ub D. <strong>Cl</strong>ear", answer: "<strong>B. Black</strong>.<br/>💡 Black = /bl/æk/. Các từ còn lại đều bắt đầu bằng CL = âm /kl/." },
 ];
 
 // --- UNIT 8: SHOPPING ---
@@ -179,14 +183,19 @@ const unit8Vocab: VocabItem[] = [
   { word: "Price tag", ipa: "/ˈpraɪs tæɡ/ (n)", meaning: "<strong>Nhãn giá</strong>. Thẻ ghi giá sản phẩm.<br/><em class='text-xs text-gray-500'>Ví dụ: check the price tag.</em>" },
   { word: "Shopping centre", ipa: "/ˈʃɒpɪŋ sentə/ (n)", meaning: "<strong>Trung tâm mua sắm</strong>. Tòa nhà lớn chứa nhiều cửa hàng.<br/><em class='text-xs text-gray-500'>= Shopping mall (AmE).</em>" },
   { word: "Convenience store", ipa: "/kənˈviːniəns stɔː/ (n)", meaning: "<strong>Cửa hàng tiện lợi</strong>. Cửa hàng nhỏ mở muộn.<br/><em class='text-xs text-gray-500'>Ví dụ: 7-Eleven, Circle K.</em>" },
+  { word: "Addicted", ipa: "/əˈdɪktɪd/ (adj)", meaning: "<strong>Say mê, nghiện</strong>. Thích quá mức không kiểm soát được.<br/><em class='text-xs text-gray-500'>Collocation: addicted to shopping.</em>" },
+  { word: "Discount shop", ipa: "/ˈdɪskaʊnt ʃɒp/ (n)", meaning: "<strong>Cửa hàng giảm giá</strong>. Nơi bán hàng với giá rẻ hơn.<br/><em class='text-xs text-gray-500'>Ví dụ: buy cheap goods at a discount shop.</em>" },
+  { word: "Display", ipa: "/dɪˈspleɪ/ (n, v)", meaning: "<strong>Trưng bày</strong>. Bày ra cho mọi người xem.<br/><em class='text-xs text-gray-500'>Ví dụ: The goods are on display.</em>" },
+  { word: "Speciality shop", ipa: "/ˌspeʃiˈæləti ʃɒp/ (n)", meaning: "<strong>Cửa hàng chuyên dụng</strong>. Cửa hàng chuyên bán 1 loại sản phẩm.<br/><em class='text-xs text-gray-500'>Ví dụ: a speciality tea shop.</em>" },
   { word: "Home-made", ipa: "/ˌhəʊm ˈmeɪd/ (adj)", meaning: "<strong>Tự làm tại nhà</strong>. Không phải hàng công nghiệp.<br/><em class='text-xs text-gray-500'>Ví dụ: home-made cake.</em>" },
 ];
 
 const unit8Exercises: ExerciseItem[] = [
-  { id: 1, question: "My mother _______ shops at the supermarket. She goes there every weekend.", answer: "<strong>always / often</strong>.<br/>(Trạng từ tần suất: always = luôn luôn, often = thường xuyên, đứng trước động từ thường)." },
-  { id: 2, question: "The train _______ (leave) at 4:30, so we still have time.<br/>(Chia động từ)", answer: "<strong>leaves</strong>.<br/>(Thì hiện tại đơn mang ý nghĩa tương lai: dùng cho lịch trình/thời gian biểu cố định)." },
-  { id: 3, question: "She _______ buys things online. She prefers going to the shop.<br/>A. always B. often C. rarely D. sometimes", answer: "<strong>C. rarely</strong>.<br/>(Rarely = hiếm khi. Phù hợp vì cô ấy thích đi cửa hàng hơn)." },
-  { id: 4, question: "Phonetics: Choose the word with /sp/ sound:<br/>A. <strong>St</strong>all B. <strong>Sp</strong>end C. <strong>St</strong>aff D. <strong>St</strong>ore", answer: "<strong>B. Spend</strong>. Các từ còn lại chứa âm /st/." },
+  { id: 1, question: "My mother _______ shops at the supermarket. She goes there every weekend.<br/>A. never B. rarely C. always D. sometimes", answer: "<strong>C. always</strong>.<br/>💡 always = luôn luôn → Đi <strong>mỗi cuối tuần</strong> = luôn luôn.<br/>⚠️ Trạng từ tần suất đứng <strong>trước</strong> động từ thường." },
+  { id: 2, question: "The train _______ (leave) at 4:30, so we still have time.<br/>(Chia động từ trong ngoặc)", answer: "<strong>leaves</strong>.<br/>💡 Lịch trình tàu là cố định → dùng <strong>hiện tại đơn</strong>.<br/>⚠️ KHÔNG dùng <em>will leave</em> vì đây là thời gian biểu." },
+  { id: 3, question: "She _______ buys things online. She prefers going to the shop.<br/>A. always B. often C. rarely D. sometimes", answer: "<strong>C. rarely</strong>.<br/>💡 rarely = hiếm khi → Cô ấy thích đi cửa hàng hơn nên <strong>hiếm khi</strong> mua online." },
+  { id: 4, question: "He is _______ late for school. He always comes on time.<br/>A. always B. sometimes C. often D. never", answer: "<strong>D. never</strong>.<br/>💡 never = không bao giờ → Luôn đúng giờ = <strong>không bao giờ</strong> trễ.<br/>⚠️ Trạng từ tần suất đứng <strong>sau</strong> động từ <em>to be</em>." },
+  { id: 5, question: "Phonetics: Choose the word with /sp/ sound:<br/>A. <strong>St</strong>all B. <strong>Sp</strong>end C. <strong>St</strong>aff D. <strong>St</strong>ore", answer: "<strong>B. Spend</strong>.<br/>💡 Spend = /sp/end/. Các từ còn lại đều bắt đầu bằng ST = âm /st/." },
 ];
 
 // --- UNIT 9: NATURAL DISASTERS ---
@@ -204,13 +213,19 @@ const unit9Vocab: VocabItem[] = [
   { word: "Predict", ipa: "/prɪˈdɪkt/ (v)", meaning: "<strong>Dự đoán</strong>. Nói trước điều sẽ xảy ra.<br/><em class='text-xs text-gray-500'>Family: prediction (n), predictable (adj).</em>" },
   { word: "Emergency kit", ipa: "/ɪˈmɜːdʒənsi kɪt/ (n)", meaning: "<strong>Bộ dụng cụ khẩn cấp</strong>. Đồ dùng cần thiết khi thảm họa xảy ra.<br/><em class='text-xs text-gray-500'>Gồm: đèn pin, nước, thuốc...</em>" },
   { word: "Warn", ipa: "/wɔːn/ (v)", meaning: "<strong>Cảnh báo</strong>. Báo trước về nguy hiểm.<br/><em class='text-xs text-gray-500'>Family: warning (n).</em>" },
+  { word: "Disaster", ipa: "/dɪˈzɑːstə/ (n)", meaning: "<strong>Thảm họa</strong>. Sự kiện gây thiệt hại lớn.<br/><em class='text-xs text-gray-500'>Collocation: natural disaster = thiên tai.</em>" },
+  { word: "Erupt", ipa: "/ɪˈrʌpt/ (v)", meaning: "<strong>Phun trào</strong>. Núi lửa phun lửa, dung nham.<br/><em class='text-xs text-gray-500'>Family: eruption (n).</em>" },
+  { word: "Authority", ipa: "/ɔːˈθɒrəti/ (n)", meaning: "<strong>Chính quyền</strong>. Cơ quan có quyền lực quản lý.<br/><em class='text-xs text-gray-500'>Ví dụ: local authority = chính quyền địa phương.</em>" },
+  { word: "Property", ipa: "/ˈprɒpəti/ (n)", meaning: "<strong>Tài sản, nhà cửa</strong>. Của cải, đồ đạc sở hữu.<br/><em class='text-xs text-gray-500'>Ví dụ: The storm destroyed people's property.</em>" },
+  { word: "Tremble", ipa: "/ˈtrembl/ (v)", meaning: "<strong>Rung lắc, run rẩy</strong>. Rung chuyển mạnh.<br/><em class='text-xs text-gray-500'>Ví dụ: The ground trembled during the earthquake.</em>" },
 ];
 
 const unit9Exercises: ExerciseItem[] = [
-  { id: 1, question: "When we _______ (watch) TV, we felt the earthquake.", answer: "<strong>were watching</strong>.<br/>(Quá khứ tiếp diễn cho hành động đang xảy ra, quá khứ đơn cho hành động xen vào: When + QKTD, QKĐ)." },
-  { id: 2, question: "I _______ (have) dinner at 6 p.m. yesterday.", answer: "<strong>was having</strong>.<br/>(Quá khứ tiếp diễn: diễn tả hành động đang xảy ra tại thời điểm xác định trong quá khứ)." },
-  { id: 3, question: "_______ they were sleeping, the storm hit the town.", answer: "<strong>While</strong>.<br/>(While + quá khứ tiếp diễn: trong khi đang... thì...)." },
-  { id: 4, question: "Stress Pattern: Choose the word with different stress:<br/>A. <strong>mu</strong>sical B. <strong>na</strong>tional C. am<strong>bi</strong>tious D. <strong>per</strong>sonal", answer: "<strong>C. ambitious</strong> (nhấn âm 2: am-BI-tious).<br/>Các từ khác nhấn âm 1. Quy tắc: đuôi -ous/-al thường nhấn âm 3 từ cuối." },
+  { id: 1, question: "When we _______ (watch) TV, we felt the earthquake.<br/>(Chia động từ trong ngoặc)", answer: "<strong>were watching</strong>.<br/>💡 Đang xem TV (hành động dài) → <strong>quá khứ tiếp diễn</strong>: was/were + V-ing.<br/>⚠️ Công thức: While/When + S + <strong>were/was V-ing</strong>, S + V-ed." },
+  { id: 2, question: "I _______ (have) dinner at 6 p.m. yesterday.<br/>(Chia động từ trong ngoặc)", answer: "<strong>was having</strong>.<br/>💡 Đang ăn tối lúc 6h chiều hôm qua = hành động đang xảy ra tại thời điểm <strong>cụ thể</strong> trong quá khứ → dùng QKTD." },
+  { id: 3, question: "_______ they were sleeping, the storm hit the town.<br/>A. When B. While C. Until D. As soon as", answer: "<strong>B. While</strong>.<br/>💡 While = trong khi → <strong>While</strong> + quá khứ tiếp diễn (were sleeping).<br/>⚠️ Nhớ: <em>while</em> luôn đi với hành động <strong>đang diễn ra</strong> (V-ing)." },
+  { id: 4, question: "She _______ (cook) when the lights went out.<br/>(Chia động từ trong ngoặc)", answer: "<strong>was cooking</strong>.<br/>💡 Đang nấu ăn (dài) thì đèn tắt (ngắn) → QKTD cho hành động dài, QKĐ cho hành động ngắn." },
+  { id: 5, question: "Stress Pattern: Choose the word with different stress:<br/>A. <strong>MU</strong>-si-cal B. <strong>NA</strong>-tio-nal C. am-<strong>BI</strong>-tious D. <strong>PER</strong>-so-nal", answer: "<strong>C. ambitious</strong> (nhấn âm 2: am-BI-tious).<br/>💡 Các từ A, B, D nhấn âm <strong>thứ 1</strong>. Riêng C nhấn âm <strong>thứ 2</strong>." },
 ];
 
 const review3Exercises: ExerciseItem[] = [
@@ -271,8 +286,17 @@ export const quizQuestions: QuizQuestion[] = [
   { id: 36, question: "I _______ buy things at the convenience store because it's near my house.", options: ["never", "rarely", "often", "before"], correct: 2, explanation: "Often = thường xuyên.", unit: 0 },
   { id: 37, question: "While we _______ (play) outside, it started to rain.", options: ["play", "played", "were playing", "are playing"], correct: 2, explanation: "While + quá khứ tiếp diễn.", unit: 0 },
   { id: 38, question: "The heavy rain caused _______ in many areas.", options: ["bargains", "landslides", "advertisements", "price tags"], correct: 1, explanation: "Landslides = sạt lở đất.", unit: 0 },
-  { id: 39, question: "We will wait here _______ the bus comes.", options: ["while", "as soon as", "until", "after"], correct: 2, explanation: "Until = cho đến khi.", unit: 0 },
-  { id: 40, question: "She _______ shops at the open-air market on Sundays.", options: ["always", "never", "rarely", "until"], correct: 0, explanation: "Always = luôn luôn.", unit: 0 },
+  { id: 39, question: "We will wait here _______ the bus comes.", options: ["while", "as soon as", "until", "after"], correct: 2, explanation: "Until = cho đến khi. Đợi cho đến khi xe buýt tới.", unit: 0 },
+  { id: 40, question: "She _______ shops at the open-air market on Sundays.", options: ["always", "never", "rarely", "until"], correct: 0, explanation: "Always = luôn luôn. Mỗi Chủ nhật đều đi = luôn luôn.", unit: 0 },
+  // Extra easy questions for average students
+  { id: 41, question: "Factories _______ toxic substances into rivers.", options: ["release", "predict", "bargain", "display"], correct: 0, explanation: "Release = thải ra. Nhà máy thải chất độc ra sông.", unit: 7 },
+  { id: 42, question: "A _______ is a terrible event that causes a lot of damage.", options: ["discount", "disaster", "display", "bargain"], correct: 1, explanation: "Disaster = thảm họa. Sự kiện kinh khủng gây nhiều thiệt hại.", unit: 9 },
+  { id: 43, question: "The volcano _______ and lava came out.", options: ["trembled", "erupted", "predicted", "released"], correct: 1, explanation: "Erupted = phun trào. Núi lửa phun trào và dung nham chảy ra.", unit: 9 },
+  { id: 44, question: "She is _______ to shopping. She buys things every day.", options: ["addicted", "endangered", "toxic", "home-made"], correct: 0, explanation: "Addicted = nghiện. Mua sắm mỗi ngày = nghiện mua sắm.", unit: 8 },
+  { id: 45, question: "The local _______ warned people about the typhoon.", options: ["customer", "shopaholic", "authority", "victim"], correct: 2, explanation: "Authority = chính quyền. Chính quyền địa phương cảnh báo.", unit: 9 },
+  { id: 46, question: "The storm destroyed people's _______ like houses and cars.", options: ["property", "substances", "species", "complaints"], correct: 0, explanation: "Property = tài sản, nhà cửa. Bão phá hủy nhà cửa, xe cộ.", unit: 9 },
+  { id: 47, question: "The ground _______ violently during the earthquake.", options: ["bargained", "displayed", "trembled", "participated"], correct: 2, explanation: "Trembled = rung lắc. Mặt đất rung lắc mạnh khi động đất.", unit: 9 },
+  { id: 48, question: "This _______ sells only handmade jewelry.", options: ["convenience store", "open-air market", "speciality shop", "discount shop"], correct: 2, explanation: "Speciality shop = cửa hàng chuyên dụng. Chỉ bán 1 loại sản phẩm.", unit: 8 },
 ];
 
 // --- LESSONS ---

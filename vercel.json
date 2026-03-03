@@ -1,6 +1,11 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": null,
   "rewrites": [
-    { "source": "/", "destination": "/quiz-unit7-natural-wonders.html" },
-    { "source": "/unit7", "destination": "/quiz-unit7-natural-wonders.html" }
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
